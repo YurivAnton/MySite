@@ -1,0 +1,136 @@
+body, #header, #aside{
+	margin: 0px;
+	padding: 0px;
+} 
+body{
+	background: url("images/bmwm3.jpg") no-repeat 1000px 500px;
+	background-attachment: fixed;
+	background-position: center center;
+	
+}
+#wrapper{
+	min-width: 800px;
+	
+}
+#header{
+	outline: 1px solid red;
+	margin-left: 200px;
+}
+.center{
+	outline: 1px solid green;
+	margin: 0px auto;
+	width: 200px;
+	text-align: center;
+}
+.menu{
+	position: relative;
+	display: inline-block;
+	min-height: 385px;
+}
+.menubtnfirst a, .menubtn a{
+	text-decoration: none;
+	color: black;
+	margin-top: 0px;
+	display: block;
+}
+.menubtn{
+	margin-top: 10px;
+}
+.menubtn, .menubtnfirst{
+	background: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	cursor: pointer;
+	min-width: 160px;
+	margin: 0px 20px 10px 20px;
+	/* padding: 20px; */
+	/* margin-top: 10px; */
+	/* color: white; */
+}
+.submenu{
+	display: none;
+	min-width: 160px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 0px 20px;
+}
+.submenu a{
+	border-radius: 5px;
+	text-align: center;
+	color: black;
+	padding: 5px;
+	text-decoration: none;
+	display: block;
+}
+.submenu a:hover{
+	background-color: blue;
+	color: white;
+	margin: 0px 20px;
+	text-decoration: underline;
+}
+.menu:hover .submenu{
+	display: block;
+}
+.left{
+	width: 200px;
+	float: left;
+}
+.right{
+	width: 300px;
+	float: right;
+	outline: 1px solid black;
+} 
+#table{
+	min-width: 300px;
+	margin: 5px;
+	background-color: white;
+}
+#badget{
+	min-width: 100%;
+	min-height: 200px;
+	display: flex;
+	overflow-x: auto;
+	
+	
+	margin-bottom: 50px;
+	
+}
+#main{
+	min-width: 800px;
+	max-width: 1230px;
+	min-height: 670px;
+	height: 400px;
+	margin-left: 200px;
+	overflow-y: auto;
+	outline: 1px solid yellow;
+	/* background: url("images/bmwm3.jpg") no-repeat; */
+	/* background-attachment: fixed; */
+}
+#radio, select, #input{
+	background-color: white;
+	opacity: 0.7;
+	margin: 0px Auto 20px Auto;
+	width: 200px; */
+	/* color: white; */
+	/* outline: 1px solid black; */
+	/* line-height: 30px; */
+}
+#radio{
+	line-height: 30px;
+	/* width: 200px; */
+}
+#input, select{
+	
+	display: block;
+	height: 30px;
+	/* width: 196px;*/
+}
+input{
+	border: none;
+}
+#sort{
+	float: left;
+}
+.clearfix{
+	clear: both;
+}
